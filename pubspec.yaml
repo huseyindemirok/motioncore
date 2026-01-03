@@ -1,0 +1,46 @@
+name: motioncore
+description: MotionCore - Minimalist, karanlık temalı ve fütüristik uygulama
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.2
+  google_fonts: ^6.3.3
+  pedometer: ^4.1.1
+  provider: ^6.1.5+1
+  sensors_plus: ^7.0.0
+  shared_preferences: ^2.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.7
+  image: ^4.7.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#000510"
+
+flutter_native_splash:
+  color: "#000510"
+  image: "assets/icon/app_icon.png"
+  android: true
+  ios: true
+  android_12:
+    image: "assets/icon/app_icon.png"
+    color: "#000510"
+
