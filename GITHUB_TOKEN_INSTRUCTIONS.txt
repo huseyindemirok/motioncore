@@ -1,0 +1,13 @@
+GitHub Push İçin Token Oluşturma:
+
+1. https://github.com/settings/tokens adresine git
+2. "Generate new token (classic)" tıkla
+3. Token adı: "MotionCore Push"
+4. Expiration: 90 days (veya istediğiniz süre)
+5. Scopes: "repo" seçeneğini işaretle
+6. "Generate token" tıkla
+7. Token'ı kopyala (bir daha gösterilmeyecek!)
+
+Push yaparken:
+- Username: huseyindemirok
+- Password: (Token'ı yapıştır)
