@@ -100,3 +100,4 @@ coverage/
 # Temporary files
 *.tmp
 *.temp
+docs/temp/
