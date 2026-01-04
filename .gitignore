@@ -100,4 +100,6 @@ coverage/
 # Temporary files
 *.tmp
 *.temp
+
+# Geçici rehber dosyaları (artık gerekli değil)
 docs/temp/
